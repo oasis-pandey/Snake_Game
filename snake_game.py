@@ -33,9 +33,7 @@ def display_text(text, color,x,y ):
 #FPS for the game
 clock=pygame.time.Clock()
 fps=30
-highscore=0
-with open("highscore.txt","w")as f:
-    f.write(str(highscore))
+
 
 
 background_image=pygame.image.load("background_image.jpg")
